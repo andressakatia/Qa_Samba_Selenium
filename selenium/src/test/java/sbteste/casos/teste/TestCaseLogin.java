@@ -27,7 +27,7 @@ public class TestCaseLogin extends AbstractSetDrivers{
 	@Before
 	public void setUp() throws Exception {
 		setDriverGoogleChrome(URL_TEST);
-		//setDriverFireFox(URL_TEST);
+		setDriverFireFox(URL_TEST);
 	}
 
 	@After
@@ -47,12 +47,12 @@ public class TestCaseLogin extends AbstractSetDrivers{
 	 
 	@Test
 	public void parametroFireFox() {
-/*		try {
+		try {
 			testCaseLoginImpl.inicioTest(driverFireFox);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 			LOGGER.log(Level.SEVERE, "Erro ao executar teste no FireFox");
-		}*/
+		}
 	}
 
 }
